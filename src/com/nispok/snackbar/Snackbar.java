@@ -162,6 +162,20 @@ public class Snackbar extends SnackbarLayout {
      * @param text
      * @return
      */
+    public Snackbar text(String text) {
+        mText = text;
+        if (snackbarText != null) {
+            snackbarText.setText(mText);
+        }
+        return this;
+    }
+
+    /**
+     * Sets the text to be displayed in this {@link Snackbar}
+     *
+     * @param text
+     * @return
+     */
     public Snackbar text(CharSequence text) {
         mText = text;
         if (snackbarText != null) {
