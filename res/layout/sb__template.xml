@@ -17,6 +17,7 @@
             style="@style/Snackbar.Text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:layout_weight="1"
             android:ellipsize="end"
             android:focusable="true" />
